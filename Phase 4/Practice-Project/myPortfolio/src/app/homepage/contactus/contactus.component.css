@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navbar li:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-info strong {
+    font-weight: bold;
+}

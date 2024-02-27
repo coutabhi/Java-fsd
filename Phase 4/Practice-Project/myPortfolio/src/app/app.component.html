@@ -1,0 +1,47 @@
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto float-left">
+        <li class="nav-item">
+          <img class="ima" src="http://clipart-library.com/data_images/206118.jpg" alt="image">
+          <a class="btn" routerLink="/">myPortFolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/aboutus">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contactus">Contact Us</a> <!-- Link to Contact component -->
+        </li>
+      </ul>
+
+      <ul class="navbar-nav ml-auto float-right"> <!-- Aligning to the right -->
+        <li class="nav-item">
+          <a class="btn btn-outline-success my-2 my-sm-0" routerLink="/signin">Sign In</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-warning my-2 my-sm-0" routerLink="/signup">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- /Navbar Section -->
+
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
