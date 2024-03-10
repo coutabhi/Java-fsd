@@ -1,0 +1,32 @@
+{
+  "hubConfig": {
+    "host": "localhost",
+    "port": 4444,
+    "servlets": [],
+    "prioritizer": null,
+    "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+    "newSessionWaitTimeout": -1,
+    "throwOnCapabilityNotPresent": true,
+    "nodePolling": 5000,
+    "cleanUpCycle": 5000,
+    "timeout": 300000,
+    "browserTimeout": 0,
+    "maxSession": 5
+  },
+  "nodeConfig": [
+    {
+      "browserName": "chrome",
+      "maxInstances": 5,
+      "platform": "WINDOWS",
+      "seleniumProtocol": "WebDriver",
+      "url": "http://localhost:5555/wd/hub"
+    },
+    {
+      "browserName": "MicrosoftEdge",
+      "maxInstances": 5,
+      "platform": "WINDOWS",
+      "seleniumProtocol": "WebDriver",
+      "url": "http://localhost:5557/wd/hub"
+    }
+  ]
+}
