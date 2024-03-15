@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="4" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-15T16:06:23 IST" name="Default suite" finished-at="2024-03-15T16:07:58 IST" duration-ms="94537">
+    <groups>
+    </groups>
+    <test started-at="2024-03-15T16:06:23 IST" name="Default test" finished-at="2024-03-15T16:07:58 IST" duration-ms="94537">
+      <class name="com.example.TestAutomation">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:23 IST" name="beforeSuite" finished-at="2024-03-15T16:06:23 IST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:23 IST" name="setUp" finished-at="2024-03-15T16:06:26 IST" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="flipkartLoadHomePage()[pri:1, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:26 IST" name="flipkartLoadHomePage" finished-at="2024-03-15T16:06:29 IST" duration-ms="3061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartLoadHomePage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:29 IST" name="afterMethod" finished-at="2024-03-15T16:06:29 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartLoadHomePage status=SUCCESS method=TestAutomation.flipkartLoadHomePage()[pri:1, instance:com.example.TestAutomation@70ed52de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="flipkartLoadTime()[pri:2, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:29 IST" name="flipkartLoadTime" finished-at="2024-03-15T16:06:31 IST" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartLoadTime -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:31 IST" name="afterMethod" finished-at="2024-03-15T16:06:31 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartLoadTime status=SUCCESS method=TestAutomation.flipkartLoadTime()[pri:2, instance:com.example.TestAutomation@70ed52de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="flipkartSearch()[pri:3, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:31 IST" name="flipkartSearch" finished-at="2024-03-15T16:06:41 IST" duration-ms="9917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartSearch -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:41 IST" name="afterMethod" finished-at="2024-03-15T16:06:41 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartSearch status=SUCCESS method=TestAutomation.flipkartSearch()[pri:3, instance:com.example.TestAutomation@70ed52de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="flipkartImageHeight()[pri:4, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:41 IST" name="flipkartImageHeight" finished-at="2024-03-15T16:06:48 IST" duration-ms="7310" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Image extends beyond screen height]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Image extends beyond screen height
+at com.example.TestAutomation.flipkartImageHeight(TestAutomation.java:127)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartImageHeight -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:48 IST" name="afterMethod" finished-at="2024-03-15T16:06:48 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartImageHeight status=FAILURE method=TestAutomation.flipkartImageHeight()[pri:4, instance:com.example.TestAutomation@70ed52de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="flipkartScrollCheck()[pri:5, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:48 IST" name="flipkartScrollCheck" finished-at="2024-03-15T16:06:56 IST" duration-ms="8121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartScrollCheck -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:56 IST" name="afterMethod" finished-at="2024-03-15T16:06:56 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartScrollCheck status=SUCCESS method=TestAutomation.flipkartScrollCheck()[pri:5, instance:com.example.TestAutomation@70ed52de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="flipkartBottomNavigate()[pri:6, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:06:56 IST" name="flipkartBottomNavigate" finished-at="2024-03-15T16:07:06 IST" duration-ms="9732" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed to navigate to the bottom of the page]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed to navigate to the bottom of the page
+at com.example.TestAutomation.flipkartBottomNavigate(TestAutomation.java:180)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartBottomNavigate -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:07:06 IST" name="afterMethod" finished-at="2024-03-15T16:07:06 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartBottomNavigate status=FAILURE method=TestAutomation.flipkartBottomNavigate()[pri:6, instance:com.example.TestAutomation@70ed52de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="flipkartImageCheck()[pri:7, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:07:06 IST" name="flipkartImageCheck" finished-at="2024-03-15T16:07:57 IST" duration-ms="51007" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Image was not downloaded just before scrolling]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Image was not downloaded just before scrolling
+at com.example.TestAutomation.flipkartImageCheck(TestAutomation.java:217)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartImageCheck -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:07:57 IST" name="afterMethod" finished-at="2024-03-15T16:07:57 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartImageCheck status=FAILURE method=TestAutomation.flipkartImageCheck()[pri:7, instance:com.example.TestAutomation@70ed52de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:07:57 IST" name="tearDown" finished-at="2024-03-15T16:07:58 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.example.TestAutomation@70ed52de]" started-at="2024-03-15T16:07:58 IST" name="afterSuite" finished-at="2024-03-15T16:07:58 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.example.TestAutomation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
